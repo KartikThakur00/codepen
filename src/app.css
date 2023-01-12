@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Karla:wght@700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+/* body::-webkit-scrollbar {
+    display: none;
+} */
+
+body {
+    margin: 0;
+    background-color: #F5F7FB;
+    font-family: 'Karla';
+    -webkit-tap-highlight-color: transparent;
+}

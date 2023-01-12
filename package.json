@@ -1,7 +1,7 @@
 {
-  "name": "CodePen",
+  "name": "codepen",
   "version": "0.1.0",
-  "homepage": "https://KartikThakur00.github.io/CodePen",
+  "homepage": "https://KartikThakur00.github.io/codepen",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

@@ -1,14 +1,15 @@
-import React from "react";
-import Blob from "./component/Blob";
-import Question from "./component/Question";
+import React,{useState} from "react";
+import Main from "./component/Main";
 import "./app.css";
 
 function App() {
+const [html,setHtml]=useState("")
+const [css,setCss]=useState("")
+const [javascript,setJavascript]=useState("")
 
   return (
     <>
-      <Blob/>
-      <Question/>
+    <Main/>
     </>
   );
 }

@@ -1,16 +1,19 @@
-import React,{useState} from "react";
-import Main from "./component/Main";
+import React, { useState } from "react";
+import Html from "./component/Html";
+import View from "./component/View";
 import "./app.css";
 
 function App() {
-const [html,setHtml]=useState("")
-const [css,setCss]=useState("")
-const [javascript,setJavascript]=useState("")
+  const [html, setHtml] = useState("");
 
+ function handleChange(e){
+  
+ }
   return (
-    <>
-    <Main/>
-    </>
+    <div className="container">
+      <Html value={html} handler={handleChange}/>
+      <View />
+    </div>
   );
 }
 

@@ -1,7 +1,7 @@
-function Html(){
+function Html(props){
     return(
         <div className="html">
-            <textarea className="code" value='XQKJBXQHJXQB'></textarea>
+            <textarea className="code" value={props.value} onChange={props.handler} placeholder="html..."></textarea>
         </div>
     )
 }

@@ -1,5 +1,7 @@
-export default function View(){
+import parse from 'html-react-parser'
+export default function View(props){
+
     return(
-       <div className="view">view</div>
+       <div className="view">{parse(props.value)}</div>
     )
 }

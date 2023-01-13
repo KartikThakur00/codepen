@@ -7,12 +7,13 @@ function App() {
   const [html, setHtml] = useState("");
 
  function handleChange(e){
-  
+  setHtml(e.target.value)
  }
+ console.log(html)
   return (
     <div className="container">
       <Html value={html} handler={handleChange}/>
-      <View />
+      <View value={html}/>
     </div>
   );
 }

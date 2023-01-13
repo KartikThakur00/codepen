@@ -24,18 +24,18 @@ body {
     width: 60%;
     border-radius: 0 10px 10px 0;
     background-color: #ffffff;
-    border-top:2px solid #000000;
-    border-bottom:2px solid #000000;
-    border-right:2px solid #000000;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-right: 2px solid #000000;
 }
 
 .html {
     width: 40%;
     height: 100%;
     border-radius: 10px 0 0 10px;
-    border-top:2px solid #000000;
-    border-bottom:2px solid #000000;
-    border-left:2px solid #000000;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-left: 2px solid #000000;
 }
 
 .code {

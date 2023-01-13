@@ -6,14 +6,14 @@ import "./app.css";
 function App() {
   const [html, setHtml] = useState("");
 
- function handleChange(e){
-  setHtml(e.target.value)
- }
- console.log(html)
+  function handleChange(e) {
+    setHtml(e.target.value);
+  }
+  console.log(html);
   return (
     <div className="container">
-      <Html value={html} handler={handleChange}/>
-      <View value={html}/>
+      <Html value={html} handler={handleChange} />
+      <View value={html} />
     </div>
   );
 }

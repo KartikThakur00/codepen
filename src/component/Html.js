@@ -5,7 +5,9 @@ function Html(props) {
         className="code"
         value={props.value}
         onChange={props.handler}
-        placeholder="html..."
+        autoCorrect="off"
+        spellCheck='false'
+        placeholder="<body>...    { inline css only }"
       ></textarea>
     </div>
   );
